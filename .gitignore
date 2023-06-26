@@ -1,0 +1,22 @@
+# 특정 파일
+.env
+.env.*
+*.log
+
+# 특정 디렉토리
+node_modules/
+dist/
+tmp/
+
+# IDE/편집기 설정
+.vscode/
+.idea/
+
+# 로그 파일
+logs/
+
+# 빌드 도구/패키지 매니저 임시 파일
+yarn-error.log
+yarn.lock
+npm-debug.log*
+package-lock.json
